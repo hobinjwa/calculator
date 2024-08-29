@@ -1,0 +1,54 @@
+body {
+    display: flex; /*플랙스*/
+    justify-content: center;
+    align-items: center; /*가운대*/
+    margin: 0;
+}
+
+.calculator {
+    background-color: white;
+    border-radius: 8px; /*둥글개둥글개*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /*감성있는 그림자*/
+    padding: 20px;
+    /*안쪽 공간 늘리기*/
+}
+/*계산기대가리꾸미기*/
+.display {
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 25px;
+    line-height: 50px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+/*내이름*/
+h1 {
+    color: blue;
+}
+/*대충버튼꾸미기*/
+button {
+    width: 20%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 2px;
+}
+
+
+/*색깔넣기*/
+.operator {
+    background-color: orange;
+}
+
+.equals {
+    background-color: blue;
+    color: white;
+}
+
+.clear {
+    background-color: red;
+}
